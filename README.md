@@ -1,8 +1,6 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Unit Assignment: Globetrotter
 
-Submitted by: **NAME**
+Submitted by: Della Lee
 
 Estimated time spent: **#** hours spent in total
 
@@ -12,7 +10,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 #### CORE FEATURES
 
-- [ ] **Home Page**
+- [] **Home Page**
   - [ ] A heading that mentions the destination.
   - [ ] An introductory paragraph that welcomes visitors and describes the purpose of the website. 
   - [ ] An evocative image *or* other visual media (video, hero-video background, etc.) that represents the location.
