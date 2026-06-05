@@ -4,50 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top Attraction</title>
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="../index.html">Home</a>
+        <a class="active" href="top-attraction.html">Top Attraction</a>
         <a href="food-guide.html">Food Guide</a>
         <a href="photo-gallery.html">Photo Gallery</a>
       </nav>
     </header>
 
     <main>
-      <h1>Top Attractions</h1>
+      <h1 class="top-attractions-title">Top Attractions</h1>
 
       <section class="attraction-grid">
         <article class="attraction-card">
           <img
-            src="../asset/img/wireframe1.png"
+            src="../asset/img/gyeongbokgung_palace.jpg"
             alt="Gyeongbokgung Palace exterior view"
+            class="attraction-image"
           />
           <div class="attraction-card-content">
-            <h3>Name: Gyeongbokgung Palace</h3>
-            <p><strong>Cost:</strong> KRW 3,000 (about $2.20)</p>
-            <p>
-              <strong>Description:</strong> Seoul's most iconic royal palace,
-              known for traditional architecture, historical exhibits, and the
-              changing of the guard ceremony.
+            <h3 class="attraction-title">Gyeongbok Palace and Honok Village</h3>
+            <p class="attraction-price">$2.96</p>
+            <p class="attraction-description">
+              14th-century royal palace and ending by walking through a
+              preserved, hilly neighborhood of traditional Korean houses.
             </p>
           </div>
         </article>
+      </section>
 
+      <section class="attraction-grid">
         <article class="attraction-card">
+          <img
+            src="../asset/img/han_river.png"
+            alt="Gyeongbokgung Palace exterior view"
+            class="attraction-image"
+          />
           <div class="attraction-card-content">
-            <h3>Attraction 2</h3>
-            <p>Add name, cost, description, and picture here.</p>
-          </div>
-        </article>
-
-        <article class="attraction-card">
-          <div class="attraction-card-content">
-            <h3>Attraction 3</h3>
-            <p>Add name, cost, description, and picture here.</p>
+            <h3 class="attraction-title">Han River</h3>
+            <p class="attraction-price">free</p>
+            <p class="attraction-description">
+              Han River is the iconic waterway dividing Seoul, South Korea. 
+              It is the vibrant, beating heart of the city’s outdoor culture, b
+              oasting 11 sprawling riverside parks.
+            </p>
           </div>
         </article>
       </section>
+
+      <section class="attraction-grid">
+        <article class="attraction-card">
+          <img
+            src="../asset/img/63building.png"
+            alt="Gyeongbokgung Palace exterior view"
+            class="attraction-image"
+          />
+          <div class="attraction-card-content">
+            <h3 class="attraction-title">63 building</h3>
+            <p class="attraction-price">$2.96</p>
+            <p class="attraction-description">
+              skyscraper on the island of Yeouido, overlooking the Han River.
+              At 819ft high, it was the tallest building outside North America
+              when it was opened on July 27, 1985, and it is the second-tallest 
+              gold-clad building in the world after Grand Lisboa in Macau.
+            </p>
+          </div>
+        </article>
+      </section>
+
+
+
+
+
+
     </main>
   </body>
 </html>

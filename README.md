@@ -2,7 +2,7 @@
 
 Submitted by: Della Lee
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **8** hours spent in total
 
 Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
@@ -10,50 +10,50 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 #### CORE FEATURES
 
-- [] **Home Page**
-  - [ ] A heading that mentions the destination.
-  - [ ] An introductory paragraph that welcomes visitors and describes the purpose of the website. 
-  - [ ] An evocative image *or* other visual media (video, hero-video background, etc.) that represents the location.
-  - [ ] Content organized using Flexbox for a fluid layout.
+- [x] **Home Page**
+  - [x] A heading that mentions the destination.
+  - [x] An introductory paragraph that welcomes visitors and describes the purpose of the website. 
+  - [x] An evocative image *or* other visual media (video, hero-video background, etc.) that represents the location.
+  - [x] Content organized using Flexbox for a fluid layout.
 
-- [ ] **Top Attractions Page**
-  - [ ] A separate page featuring a minimum of three attractions, each including a:
-    - [ ] Name
-    - [ ] Photo
-    - [ ] Brief description
-  - [ ] Each attraction is styled the same
+- [x] **Top Attractions Page**
+  - [x] A separate page featuring a minimum of three attractions, each including a:
+    - [x] Name
+    - [x] Photo
+    - [x] Brief description
+  - [x] Each attraction is styled the same
     - E.g. same font, image size, title size, etc. 
-  - [ ] Content arranged with Flexbox for consistency and responsiveness.
+  - [x] Content arranged with Flexbox for consistency and responsiveness.
 
-- [ ] **Guide Page** *(build one guide page of the type you choose below)*
-  - [ ] A separate page that is *one* of the following: a Food Guide, an Accommodations Guide, *or* an Upcoming Local Events Guide.
-  - [ ] At least three entries thematic to your choice that provide a:
-    - [ ] Title
-    - [ ] Address
-    - [ ] Description
-    - [ ] Link with more information (e.g. link to a restaurant page)
-  - [ ] Each entry should be:
-    - [ ] Catered to a specific type of traveler (families, backpackers, etc.)
-    - [ ] Styled the same
+- [x] **Guide Page** *(build one guide page of the type you choose below)*
+  - [x] A separate page that is *one* of the following: a Food Guide, an Accommodations Guide, *or* an Upcoming Local Events Guide.
+  - [x] At least three entries thematic to your choice that provide a:
+    - [x] Title
+    - [x] Address
+    - [x] Description
+    - [x] Link with more information (e.g. link to a restaurant page)
+  - [x] Each entry should be:
+    - [x] Catered to a specific type of traveler (families, backpackers, etc.)
+    - [x] Styled the same
       - E.g. same font, title size, etc.
-  - [ ] Content arranged with Flexbox for consistency and responsiveness. 
+  - [x] Content arranged with Flexbox for consistency and responsiveness. 
 
-- [ ] **Photo Gallery**
-  - [ ] Separate page with at least five images related to the site's topic.
-  - [ ] Each image should include a caption describing the image.
-  - [ ] Presented in a responsive design using Flexbox.
+- [x] **Photo Gallery**
+  - [x] Separate page with at least five images related to the site's topic.
+  - [x] Each image should include a caption describing the image.
+  - [x] Presented in a responsive design using Flexbox.
 
-- [ ] **Navigation Bar**
-  - [ ] Navigation bar with working links to each of the following pages:
-    - [ ] Home Page
-    - [ ] Top Attractions
-    - [ ] Photo Gallery
-    - [ ] Guide Page (Food Guide, Accommodations Guide, _or_ Upcoming Local Events Guide)
-  - [ ] Navigation bar can be accessed from each page of the website.
-  - [ ] Styled with Flexbox that adapts to different screen sizes.  
+- [x] **Navigation Bar**
+  - [x] Navigation bar with working links to each of the following pages:
+    - [x] Home Page
+    - [x] Top Attractions
+    - [x] Photo Gallery
+    - [x] Guide Page (Food Guide, Accommodations Guide, _or_ Upcoming Local Events Guide)
+  - [x] Navigation bar can be accessed from each page of the website.
+  - [x] Styled with Flexbox that adapts to different screen sizes.  
 
-- [ ] **Smartphone Friendly**
-  - [ ] A design that is fully functional and aesthetically pleasing on smartphones is achieved using media queries.
+- [x] **Smartphone Friendly**
+  - [x] A design that is fully functional and aesthetically pleasing on smartphones is achieved using media queries.
 
 ### Stretch Features
 
@@ -91,20 +91,13 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The topic disccused in our lab was a good way to prepare me to complete the assignment. The lab introduced me to a lot of topics/ skills that were used in the project, for example using flexboxes and containers, buttons. Some of the features that I didn't learn about in the assignment where hovering features that I just wanted to implement as a stretch goals. 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time, I would be more intentionally with the design choices I made. I think some of the design components could be better. I also want to implement more of the stretch goals. I have a tag section with food guide section, the tag is fake and there is no filter that I could filter by each tag, so if I had more time, I would like to implement this portion. Having music into the website that is Korean music (like kpop) would also be something that I would like to implement if I had more time.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
-
-### Open-source libraries used
-
-- Add any links to open-source libraries used in your project.
-
-### Shout out
-
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+I think the project demo went well overall, I explained why I chose Korea, some of the design choices I made, how I implemented the website. I explained the process from the planning (wireframing, protopying) to final implementation. I think had some filler words like uhmms and few pauses, which is something I would like to work on. 
+A lot my peers added map to their website, which seems really cool. I would also like to add map embbeded into the website. 

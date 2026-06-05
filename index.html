@@ -4,23 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Globetrotter</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Explore Seoul, Korea</h1>
       <nav>
+        <a class="active" href="index.html">Home</a>
         <a href="pages/top-attraction.html">Top Attraction</a>
         <a href="pages/food-guide.html">Food Guide</a>
         <a href="pages/photo-gallery.html">Photo Gallery</a>
       </nav>
     </header>
 
-    <main>
-      <h2>Welcome to Your Seoul Travel Guide</h2>
-      <p>
-        Start planning your trip with our top attractions, local food tips, and
-        a beautiful photo gallery.
-      </p>
+    <main class="home-main">
+      <section class="home-hero" id="homeHero">
+        <img
+          class="home-hero-image"
+          id="homeHeroImage"
+          src="asset/img/korea.gif"
+          alt="Animated introduction to Korea"
+        />
+        <section class="home-hero-content" id="homeHeroContent">
+          <h2>Explore Korea</h2>
+          <p>
+            Korea is a peninsula in East Asia with a rich history spanning
+            thousands of years, known for vibrant culture, innovation, and
+            unforgettable destinations.
+          </p>
+        </section>
+      </section>
     </main>
+    <script>
+      const hero = document.getElementById("homeHero");
+      const heroImage = document.getElementById("homeHeroImage");
+      const heroContent = document.getElementById("homeHeroContent");
+      let isSettled = false;
+
+      function settleHero() {
+        if (isSettled) return;
+        isSettled = true;
+        heroImage.src = "asset/img/korea_photo_1.jpg";
+        hero.classList.add("settled");
+        heroContent.classList.add("show");
+      }
+
+      hero.addEventListener("mouseenter", settleHero);
+      setTimeout(settleHero, 5000);
+    </script>
   </body>
 </html>

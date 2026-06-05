@@ -4,66 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Guide</title>
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="../index.html">Home</a>
         <a href="top-attraction.html">Top Attraction</a>
+        <a class="active" href="food-guide.html">Food Guide</a>
         <a href="photo-gallery.html">Photo Gallery</a>
       </nav>
     </header>
 
     <main>
-      <h2>Must-Try Dishes</h2>
-      <section>
-        <article>
-          <p><strong>Rating:</strong> 4.8/5 (&#9733;&#9733;&#9733;&#9733;&#9733;)</p>
-          <h3>Tteokbokki</h3>
-          <p>
-            Chewy rice cakes in a sweet and spicy red chili sauce, often served
-            hot from street vendors.
-          </p>
-          <p><strong>Address:</strong> Sindang-dong Tteokbokki Town, Seoul</p>
-          <section class="tags">
-            <section>spicy</section>
-            <section>streetfood</section>
-            <section>traditional</section>
-            <section>quick-bite</section>
+      <h2 class="food-guide-title">Must-Try Dishes</h2>
+      <section class="food-grid">
+        <article class="food-card">
+          <figure class="food-image-wrap">
+            <img
+              class="food-image"
+              src="../asset/img/tteokbokki.jpg"
+              alt="Tteokbokki dish"
+            />
+          </figure>
+          <section class="food-card-info">
+            <p class="food-rating">&#9733; 4.5</p>
+            <h3 class="food-title">Tteokbokki</h3>
+            <p class="food-description">Rice cake stir-fried in spicy and sweet sauce.</p>
+            <p class="food-address">Pojangmacha, Seoul</p>
+            <section class="food-tags">
+              <section class="food-tag">spicy</section>
+              <section class="food-tag">streetfood</section>
+            </section>
+            <button
+              class="food-visit-btn"
+              type="button"
+              onclick="window.open('https://mykoreankitchen.com/tteokbokki-spicy-rice-cakes/', '_blank', 'noopener,noreferrer')"
+            >
+              VISIT
+            </button>
           </section>
-          <button type="button">Visit</button>
         </article>
 
-        <article>
-          <p><strong>Rating:</strong> 4.6/5 (&#9733;&#9733;&#9733;&#9733;&#9734;)</p>
-          <h3>Bibimbap</h3>
-          <p>
-            A colorful rice bowl with vegetables, egg, and gochujang, mixed
-            together for a balanced and flavorful meal.
-          </p>
-          <p><strong>Address:</strong> Gogung, Myeongdong, Seoul</p>
-          <section class="tags">
-            <section>traditional</section>
-            <section>vegetarian-option</section>
-            <section>hearty</section>
+        <article class="food-card">
+          <figure class="food-image-wrap">
+            <img
+              class="food-image"
+              src="../asset/img/bibimbap.jpg"
+              alt="Bibimbap dish"
+            />
+          </figure>
+          <section class="food-card-info">
+            <p class="food-rating">&#9733; 4.6</p>
+            <h3 class="food-title">Bibimbap</h3>
+            <p class="food-description">Mixed rice bowl with vegetables, egg, and chili paste.</p>
+            <p class="food-address">Myeongdong Street, Seoul</p>
+            <section class="food-tags">
+              <section class="food-tag">traditional</section>
+              <section class="food-tag">vegetarian</section>
+            </section>
+            <button
+              class="food-visit-btn"
+              type="button"
+              onclick="window.open('https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/', '_blank', 'noopener,noreferrer')"
+            >
+              VISIT
+            </button>
           </section>
-          <button type="button">Visit</button>
         </article>
 
-        <article>
-          <p><strong>Rating:</strong> 4.7/5 (&#9733;&#9733;&#9733;&#9733;&#9733;)</p>
-          <h3>Japchae</h3>
-          <p>
-            Sweet potato glass noodles stir-fried with vegetables and sesame
-            oil, known for its light sweetness and chewy texture.
-          </p>
-          <p><strong>Address:</strong> Tosokchon Area, Jongno-gu, Seoul</p>
-          <section class="tags">
-            <section>traditional</section>
-            <section>vegetarian</section>
-            <section>shareable</section>
+        <article class="food-card">
+          <figure class="food-image-wrap">
+            <img
+              class="food-image"
+              src="../asset/img/japchae.jpg"
+              alt="Japchae dish"
+            />
+          </figure>
+          <section class="food-card-info">
+            <p class="food-rating">&#9733; 4.7</p>
+            <h3 class="food-title">Japchae</h3>
+            <p class="food-description">Glass noodles stir-fried with vegetables and sesame oil.</p>
+            <p class="food-address">Jongno-gu, Seoul</p>
+            <section class="food-tags">
+              <section class="food-tag">shareable</section>
+              <section class="food-tag">traditional</section>
+            </section>
+            <button class="food-visit-btn" type="button">VISIT</button>
           </section>
-          <button type="button">Visit</button>
         </article>
       </section>
     </main>

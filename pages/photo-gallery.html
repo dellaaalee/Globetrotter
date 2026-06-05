@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photo Gallery</title>
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header>
@@ -11,34 +12,47 @@
         <a href="../index.html">Home</a>
         <a href="top-attraction.html">Top Attraction</a>
         <a href="food-guide.html">Food Guide</a>
+        <a class="active" href="photo-gallery.html">Photo Gallery</a>
       </nav>
     </header>
 
     <main>
-      <h2>Seoul in Pictures</h2>
-      <section>
-        <figure>
+      <h2 class="gallery-title">Photo Gallery</h2>
+      <section class="photo-gallery-grid">
+        <figure class="gallery-item">
           <img
+            class="gallery-image"
             src="../asset/img/wireframe1.png"
             alt="View of Seoul cityscape and landmarks"
           />
-          <figcaption>Sunset view of Seoul's vibrant skyline.</figcaption>
+          <figcaption class="gallery-caption">Sunset view of Seoul's vibrant skyline.</figcaption>
         </figure>
 
-        <figure>
+        <figure class="gallery-item">
           <img
+            class="gallery-image"
             src="../asset/img/wireframe1.png"
             alt="Traditional palace architecture in Seoul"
           />
-          <figcaption>Historic architecture near Gyeongbokgung Palace.</figcaption>
+          <figcaption class="gallery-caption">Historic architecture near Gyeongbokgung Palace.</figcaption>
         </figure>
 
-        <figure>
+        <figure class="gallery-item">
           <img
+            class="gallery-image"
             src="../asset/img/wireframe1.png"
             alt="Street food stalls in Seoul at night"
           />
-          <figcaption>Night market energy and Seoul street food culture.</figcaption>
+          <figcaption class="gallery-caption">Night market energy and Seoul street food culture.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            class="gallery-image"
+            src="../asset/img/wireframe1.png"
+            alt="Scenic city walk in Seoul"
+          />
+          <figcaption class="gallery-caption">Scenic city walk and neighborhood views.</figcaption>
         </figure>
       </section>
     </main>
